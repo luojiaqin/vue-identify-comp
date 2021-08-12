@@ -1,0 +1,45 @@
+{
+  "name": "vue-identify-comp",
+  "version": "1.0.0",
+  "description": "## 安装 ``` npm install vue-identify-comp --save-dev ```",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack ",
+    "test:init": "jest --init",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luojiaqin/vue-identify-comp.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "ljq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luojiaqin/vue-identify-comp/issues"
+  },
+  "homepage": "https://github.com/luojiaqin/vue-identify-comp#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@types/jest": "^26.0.24",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^27.0.6",
+    "babel-plugin-require-context-hook": "^1.0.0",
+    "jest": "^27.0.6",
+    "vue-jest": "^3.0.7",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^4.3.0",
+    "uuid": "^8.3.2",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
