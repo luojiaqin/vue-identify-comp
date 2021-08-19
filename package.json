@@ -49,11 +49,6 @@
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "echo \"git commit trigger husky pre-commit hook\""
-    }
-  },
   "lint-staged": {
     "*.js": "eslint --fix"
   }
