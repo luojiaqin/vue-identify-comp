@@ -1,4 +1,8 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-lint staged
+# npm run lint
+echo "123"
+./node_modules/.bin/lint-staged
+
+# npm lint-staged
