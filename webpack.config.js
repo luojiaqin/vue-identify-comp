@@ -5,7 +5,8 @@ module.exports = {
         main: './src/index.js',
     },
     output: {
-        filename: 'vue-identidy-comp.js'
+        filename: 'vue-identidy-comp.js',
+        library: 'inentifyComp'
     },
     devServer: {
         port: 9000,

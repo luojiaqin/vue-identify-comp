@@ -25,6 +25,9 @@ Vue.use(VueIdentifyComp, {
         require.context('../components', true, /\.vue$/)
     ]
 })
+
+// 页面渲染完之后识别组件
+VueIdentifyComp.draw()
 ```
 
 ## 选项
